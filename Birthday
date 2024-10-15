@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<script>  
+$(function(){  
+        $("#hide").click(function(){  
+        $("p").hide(1000);  
+    });  
+    $("#show").click(function(){  
+        $("p").show(1000);  
+    });  
+});  
+</script>  
+</head>  
+<body>  
+<p>  
+<b>Happy Birthday</b><br>  
+Happy Birthday to you<br>  
+Happy Birthday to you<br>  
+Happy Birthday to you<br>  
+Happy Birthday to you<br>  
+</p>  
+<button id="hide">Hide</button>  
+<button id="show">Show</button>  
+</body>  
+</html>  
